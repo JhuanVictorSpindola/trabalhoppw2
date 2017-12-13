@@ -1,0 +1,52 @@
+<ul id="listapro">
+					<li>
+						<a class="lp" href="produto.html">
+							<img class='prod' src='imagens/ori.jpg'>
+							<span class="nomepro"> Ori and the blind forest</span>
+							<span class="preçopro">32,00 R$</span>
+						</a>
+							<span class="avaliaçao">Avaliação:</span>
+							<img class="star" src="imagens/icones/starrank5.png">
+							<span class="prodcat"><br>Plataforma<br>Ação<br>Indie<br>RPG</span>
+					</li>
+					<li>
+						<a class="lp" href="produto.html">
+							<img class='prod' src='imagens/ori.jpg'>
+							<span class="nomepro"> Ori and the blind forest</span>
+							<span class="preçopro">32,00 R$</span>
+						</a>
+							<span class="avaliaçao">Avaliação:</span>
+							<img class="star" src="imagens/icones/starrank5.png">
+							<span class="prodcat"><br>Plataforma<br>Ação<br>Indie<br>RPG</span>
+					</li>
+					<li>
+						<a class="lp" href="produto.html">
+							<img class='prod' src='imagens/ori.jpg'>
+							<span class="nomepro"> Ori and the blind forest</span>
+							<span class="preçopro">32,00 R$</span>
+						</a>
+							<span class="avaliaçao">Avaliação:</span>
+							<img class="star" src="imagens/icones/starrank5.png">
+							<span class="prodcat"><br>Plataforma<br>Ação<br>Indie<br>RPG</span>
+					</li>
+					<li>
+						<a class="lp" href="produto.html">
+							<img class='prod' src='imagens/ori.jpg'>
+							<span class="nomepro"> Ori and the blind forest</span>
+							<span class="preçopro">32,00 R$</span>
+						</a>
+							<span class="avaliaçao">Avaliação:</span>
+							<img class="star" src="imagens/icones/starrank5.png">
+							<span class="prodcat"><br>Plataforma<br>Ação<br>Indie<br>RPG</span>
+					</li>
+					<li>
+						<a class="lp" href="produto.html">
+							<img class='prod' src='imagens/ori.jpg'>
+							<span class="nomepro"> Ori and the blind forest</span>
+							<span class="preçopro">32,00 R$</span>
+						</a>
+							<span class="avaliaçao">Avaliação:</span>
+							<img class="star" src="imagens/icones/starrank5.png">
+							<span class="prodcat"><br>Plataforma<br>Ação<br>Indie<br>RPG</span>
+					</li>
+				</ul>

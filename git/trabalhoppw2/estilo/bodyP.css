@@ -1,0 +1,141 @@
+body{
+	margin: auto;
+	height: 2000px;
+}
+
+#produto{
+	position: relative;
+	background-color: #F5EDAC;
+	top: 75px;
+	left: 140px;
+	width: 80%;
+	height: 600px;
+}
+
+#imagem{
+	position: absolute;
+	top: 13px;
+	left: 13px;
+	background-color: transparent;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	border-width: 1px;
+	width: 650px;
+	height: 570px;
+}
+
+#rbutton{
+	position: absolute;
+	top: 100px;
+	left: 65px;
+	z-index: 10;
+}
+
+#lbutton{
+	position: absolute;
+	top: 100px;
+	left: 575px;
+	z-index: 10;
+}
+
+#r{
+	background-color: transparent;
+	color: white;
+	border: 0;
+	position: absolute;
+	top: 157.5px;
+	font-size: 40px;
+	opacity: 0.3;
+}
+
+#l{
+	background-color: transparent;
+	color: white;
+	border-style: none;
+	position: absolute;
+	top: 157.5px;
+	font-size: 40px;
+	opacity: 0.3;
+}
+
+button:focus{
+	outline:none;
+}
+
+#l:hover{
+	display: block;
+	opacity: 1;
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transition: 1s ease;
+	transform: scale(1.5);
+}
+
+#r:hover{
+	display: block;
+	opacity: 1;
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transition: 1s ease;
+	transform: scale(1.5);
+}
+
+.video{
+	position: absolute;
+	top: 100px;
+	left: 55px;
+	width: 560px;
+	height: 315px;
+}
+
+#nomepro{
+	position: absolute;
+	top: 20px;
+	left: 680px;
+	font-size: 40px;
+}
+
+#avaliaçao{
+	position: absolute;
+	top: 80px;
+	left: 785px;
+	font-size: 30px;
+}
+
+#star{
+	position: absolute;
+	top: 85px;
+	left: 920px;
+	width: 150px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	box-shadow: 0 0 8px #000;
+}
+
+#desc{
+	position: absolute;
+	top: 140px;
+	left: 700px;
+	font-size: 25px;
+}
+
+#prodcat{
+	position: absolute;
+	top: 290px;
+	left: 700px;
+	font-size: 25px;
+	color: #010636;
+}
+
+#preçopro{
+	position: absolute;
+	top: 500px;
+	left: 690px;
+	font-size: 40px;
+	color: white;
+	background-color: #42be25;
+	border-radius: 5px;
+	border: 1;
+}

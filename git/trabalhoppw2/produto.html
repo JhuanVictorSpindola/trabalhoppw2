@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="estilo/headerP.css">
+	<link rel="stylesheet" type="text/css" href="estilo/bodyP.css">
+</head>
+<body>
+	<div id="pagina">
+		<div id="cab">
+			<img id="logo" src="imagens/logo/logo.png">
+
+			<div id="campobusca"></div>
+			<div id="CaixaDeBusca">
+					<input id="caixaT" type="text" placeholder="Buscar..." />
+				</div>
+				<div>
+					<img id="iconBusca" src="imagens/icones/lupa1.png">
+				</div>
+				<div>
+					<img id="iconLogin" src="imagens/icones/perfil.png">
+				</div>
+				
+				<a href="#" onclick="document.getElementById('poplogin').style.display='block';"><img id="iconLogin" src="imagens/icones/perfil.png"></a>
+
+				<div id="poplogin">
+					<form id="formlogin">
+						<button id="fechar" onclick="document.getElementById('poplogin').style.display='none';">x</button>
+						<br>
+						<label for="log">Login</label>
+						<input type="text" id="log" class="textlogin">
+						<br><br>
+						<label for="senha">Senha</label>
+						<input type="text" id="senha" class="textlogin">
+						<br>
+						<br><br><br>
+						<input id="entre" type="submit" value="Entre">
+						<a id="logcad" href="login.html">Cadastrar</a>
+					</form>
+				</div>
+
+				<div>
+					<img id="iconCesta" src="imagens/icones/cesta.png">
+			</div>
+
+			<div id="menu">
+				<nav>
+					<button class="bmenu" type="button">Home</button>
+					<button class="bmenu" type="button">Jogos</button>
+					<button class="bmenu" type="button">Jogos</button>
+					<button class="bmenu" type="button">Destaques</button>
+					<button class="bmenu" type="button">Atendimento</button>
+				</nav>
+			</div>
+		</div>
+		<div id="produto">
+			<div id="imagem"></div>
+
+			<script type="text/javascript">		
+				$("#slide div:eq(0)").addClass("ativo");
+
+				function prox(){
+					if($(".ativo").next().size()){							
+						$(".ativo").fadeOut().removeClass("ativo").next().fadeIn().addClass("ativo");
+					}
+					else{
+						$(".ativo").fadeOut().removeClass("ativo");
+						$("#slide div:eq(0)").addClass("ativo").fadeIn();
+					}
+				}
+				function prev(){
+					if($(".ativo").prev().size()){							
+						$(".ativo").fadeOut().removeClass("ativo").prev().fadeIn().addClass("ativo");
+					}
+					else{
+						$(".ativo").fadeOut().removeClass("ativo");
+						$("#slide div:eq(2)").addClass("ativo").fadeIn();
+					}
+				}
+			</script>
+			<div id="rbutton"><button id="r" onclick="prox()" > < </button></div>
+			<div id="lbutton"><button id="l" onclick="prev()" > > </button></div>
+			<figure id="slide">
+				<div><iframe class="video" src="https://www.youtube.com/embed/cklw-Yu3moE" frameborder="0" allowfullscreen></iframe></div>
+				<div><img class="video" src="imagens/origameplay.jpg"></div>
+				<div><img class="video" src="imagens/ori.jpg"></div>
+			</figure>
+			<span id="nomepro"> Ori and the blind forest</span>
+			<button id="preçopro">R$ 32,00</button>
+			<span id="avaliaçao">Avaliação:</span>
+			<img id="star" src="imagens/icones/starrank5.png">
+			<span id="prodcat"><br>Plataforma<br>Ação<br>Indie<br>RPG</span>
+			<span id="desc">“Ori and the Blind Forest” conta a história de um jovem órfão destinado ao heroísmo, em um jogo de Ação em Plataformas com visual incrível criado pela Moon Studios.</span>
+		</div>
+	</div>
+</body>
+</html>

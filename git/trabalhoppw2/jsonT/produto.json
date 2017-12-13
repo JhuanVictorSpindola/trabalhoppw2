@@ -1,0 +1,35 @@
+[{
+	"imagem": "imagens/ori.jpg",
+	"nome": "Ori and the Blind Forest",
+	"preço": "R$ 32,00",
+	"star": "5",
+	"categoria": ["RPG", "Indie", "Plataforma", "ação"]
+ },
+ {
+	"imagem": "imagens/cuphead.jpg",
+	"nome": "CupHead",
+	"preço": "R$ 30,00",
+	"star": "4",
+	"categoria": ["Indie", "Plataforma", "ação"]
+},
+{
+	"imagem": "imagens/stardew.jpg",
+	"nome": "Stardew Valley",
+	"preço": "R$ 152,00",
+	"star": "5",
+	"categoria": ["RPG"]
+},
+{
+	"imagem": "imagens/child.png",
+	"nome": "Child of Light",
+	"preço": "R$ 0,99",
+	"star": "5",
+	"categoria": ["RPG", "Indie", "Plataforma", "ação", "Indie", "Indie", "Indie", "Indie", "Indie"]
+},
+{
+	"imagem": "imagens/skyrim.jpg",
+	"nome": "Skyrim",
+	"preço": "R$ 15,00",
+	"star": "5",
+	"categoria": ["RPG", "Indie", "Plataforma", "ação"]
+}]

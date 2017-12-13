@@ -1,0 +1,217 @@
+body{
+	margin:auto;
+}
+
+#fundoC{
+	position: relative;
+	top: 70px;
+	opacity: 0.8;
+}
+
+#slide{
+	width: 500px; 
+	height: 250px;
+	overflow: hidden; 
+	margin: 50px auto;
+	box-shadow: 0 0 8px #000;
+	position: relative;
+	top: -2250px;
+}
+
+#slide img{
+	width: 500px; 
+	height: 250px;
+	position: absolute;
+	z-index: 1;
+	display: none;
+	left: 0;
+}
+
+#slide p {
+	z-index:2;
+	position: absolute; 
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px; 
+	font-family: Arial; 
+	font-size: 14px; 
+	background: rgba(0,0,0,0.5);  
+	color: #fff;
+}
+
+#categorias{
+	position: absolute;
+	margin-left: 15px;
+	width: 200px;
+	height: 550px;
+	top: 650px;
+	box-shadow: 0 0 8px #000;
+	border-radius: 5px;
+}
+
+#barracat{
+	width: 230px;
+	height: 35px;
+	position: absolute;
+	top: 634px;
+	left: 8px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #000;
+	background-color: #BC9600;
+	z-index:4;
+}
+
+#imgcat{
+	position: absolute;
+	top: 620px;
+	left: 170px;
+	width: 70px;
+	height: 70px;
+	z-index: 4;
+}
+
+#fundocat{
+	width: 200px;
+	height: 550px;
+	background-color: #F5EDAC;
+	opacity: 0.5;
+	border-radius: 5px;
+}
+
+#Ucat{
+
+	font-size: 150%;
+	position: absolute;
+	top: 1px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+}
+
+#Ucat li{
+	list-style-image: url(categoriaicon.png);
+	margin-bottom: 26px;
+}
+
+#produtos{
+	width: 850px;
+	height: 1001px;
+	position: absolute;
+	top: 750px;
+	left: 300px;
+}
+
+#fundopro{
+	width: 850px;
+	height: 1131px;
+	opacity: 0.5;
+	border-radius: 5px;	
+	background-color: #F5EDAC;
+	box-shadow: 0 0 8px #000;
+}
+
+#listapro{
+	position: absolute;
+	top: 1px;
+}
+
+#produtos ul{
+	list-style-type: none;
+}
+
+#produtos li{
+	margin-bottom: 20px;
+	width: 766px;
+	height: 200px;
+}
+
+.nomepro{
+	font-size: 35px;
+	border-radius: 5px;
+	position: relative;
+	top: -177px;
+	left: 380px;
+}
+
+.preçopro{
+	position: relative;
+	top: -85px;
+	left: 650px;
+	font-size: 25px;
+	background-color: #42be25;
+	color: white;
+	border-radius: 5px;
+	box-shadow: 0px 2px 8px #000;
+}
+
+.prod{
+	position: relative;
+	top: 5px;
+	left: 10px;
+	width: 345px;
+	height: 190px;
+}
+
+.avaliaçao{
+	position: relative;
+	top: -198px;
+	left: 384px;
+	font-size: 20px;
+}
+
+.star{
+	position: relative;
+	top: -220px;
+	left: 478px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+.prodcat{
+	position: relative;
+	top: -204px;
+	left: 384px;
+	font-size: 20px;
+}
+
+.lc{
+	color: black;
+}
+
+.lc:link, .lc:visited, .lc:active{
+	text-decoration: none;
+}
+
+.lc:hover{
+	color: #000236;
+}
+
+.lp{
+	color: black;
+}
+
+.lp:link, .lc:visited, .lc:active{
+	text-decoration: none;
+}
+
+.lp:hover{
+	color: 
+}
+
+#listapro li{
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 5px;
+}
+
+#listapro li:hover{
+	transition: 0.1s ease;
+	border-color: orange;
+}
+
+.preçopro:hover{
+	background-color: 
+}
