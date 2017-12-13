@@ -5,17 +5,18 @@ body{
 #cadastrar{
 	position: absolute;
 	top: 50px;
-	left: 360px;
+	left: 450px;
 	width: 800px;
 	height: 600px;
 	background-color: transparent; 
 	border-radius: 5px;
+
 }
 
 #cad{
 	position: absolute;
 	top: 5px;
-	left: 190px;
+	left: 360px;
 	font-size: 50px;
 	color: white;
 }
@@ -28,7 +29,8 @@ body{
 form{
 	position: absolute;
 	top: 130px;
-	left: 180px;
+	left: 350px;
+
 }
 
 #bt{
@@ -51,4 +53,25 @@ form{
 	border: none;
 	padding: 10px;
 	outline: none;
+}
+
+#log{
+	position: absolute;
+	top: 5px;
+	left: 360px;
+	font-size: 50px;
+	color: white;
+
+}
+#login{
+	position: absolute;
+	top: 50px;
+	right: 700px;
+	width: 800px;
+	height: 600px;
+	background-color: transparent; 
+	border-radius: 5px;
+	border-right:5px white solid;
+
+
 }
